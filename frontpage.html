@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>OpenAI Image Generator Landing Page</title>
+    <style>
+        body {
+            background-image: url("ai.jpeg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            color: rgb(247, 244, 244);
+            text-align: center;
+            padding: 50px;
+            font-family: Arial, sans-serif;
+        }
+
+        h1 {
+            font-size: 2em;
+            margin-bottom: 20px;
+            white-space: nowrap; /* Prevent line breaks */
+            overflow: hidden; /* Hide overflowed content */
+            border-right: 2px solid #007bff; /* Add cursor effect */
+            animation: typing 3s steps(40) 1s 1 normal both; /* Typing animation */
+        }
+
+        @keyframes typing {
+            from {
+                width: 0;
+            }
+            to {
+                width: 100%;
+            }
+        }
+
+        p {
+            font-size: 1.2em;
+            margin-bottom: 30px;
+        }
+
+        .btn {
+            font-size: 1.5em;
+            text-decoration: none;
+            color: white;
+            padding: 10px 20px;
+            background-color: #007bff;
+            border-radius: 5px;
+        }
+
+        .btn:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+
+<body style="background-image: url('blue2.jpeg');">
+    
+    <div>
+        <h1>Welcome to Text canvas</h1>
+        <p>Click the button below to access the image generator:</p>
+        <a href="http://127.0.0.1:81" class="btn">Go to Image Generator</a>
+    </div>
+
+    <script>
+        // Optional: You can place this script in an external JavaScript file
+        document.addEventListener('DOMContentLoaded', function () {
+            // Add your script here if needed
+        });
+    </script>
+</body>
+
+</html>
